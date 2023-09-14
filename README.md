@@ -1,2 +1,2 @@
 # django-api
-web scraping
+articles
