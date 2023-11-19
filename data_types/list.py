@@ -6,4 +6,4 @@ def list_fundamentals():
     
     # SEARCH BY INDEX WITH FOR 
     for item_by_index in enumerate(my_list):
-        print(item_by_index[1])
+        print(item_by_index)
