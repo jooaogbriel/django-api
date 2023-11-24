@@ -1,0 +1,2 @@
+class IsNotAvaliable (Exception):
+    Exception
