@@ -1,5 +1,2 @@
 # django-api
-articles
-try_django
-CRUD
-list and tuples
+my portfolio made with python and Django
