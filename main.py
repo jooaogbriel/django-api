@@ -16,5 +16,6 @@ if __name__ == "__main__":
 person_data = {'name': 'João'}
 joao = Person(**person_data)
 joao.save()
-
+Person.objects.all()
+Person.objects.get(name='João')
 
