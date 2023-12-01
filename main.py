@@ -18,4 +18,4 @@ joao = Person(**person_data)
 joao.save()
 Person.objects.all()
 Person.objects.get(name='João')
-
+Person.objects.filter()
