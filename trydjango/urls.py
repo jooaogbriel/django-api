@@ -1,6 +1,6 @@
 from django.urls import path
-from trydjango import views
+from articles.views import ArticlesViews
 
 urlpatterns = [
-    path('', views.home_view, name='home'), # index / home / root
+    path('api/articles/', ArticlesViews.as_view()), # index / home / root
 ]
