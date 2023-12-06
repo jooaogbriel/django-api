@@ -1,15 +1,18 @@
-<!-- templates/base.html -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}My Blog{% endblock %}</title>
+    <title>Seu Blog Personalizado</title>
 </head>
 <body>
-
-{% block content %}{% endblock %}
-
+    <h1>Seu Blog Personalizado</h1>
+    
+    <ul>
+        {% for post in posts %}
+            <li>{{ post.title }} - {{ post.content }}</li>
+            
+        {% endfor %}
+    </ul>
 </body>
 </html>
