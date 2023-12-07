@@ -1,18 +1,27 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seu Blog Personalizado</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+    <title>João Gonçalves - FullStack</title>
 </head>
 <body>
-    <h1>Seu Blog Personalizado</h1>
-    
-    <ul>
-        {% for post in posts %}
-            <li>{{ post.title }} - {{ post.content }}</li>
-            
-        {% endfor %}
-    </ul>
+    <header>
+        <h1>João Gonçalves</h1>
+        <p>Dev - Full Stack</p>
+        <nav>
+         <ul>
+          <li>HOME</li>
+          <li>SOBRE</li>
+          <li>BLOG</li>
+         </ul>
+        </nav>
+    </header>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
 </body>
 </html>

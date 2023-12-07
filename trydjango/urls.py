@@ -25,6 +25,6 @@ urlpatterns = [
     path('api/blog/<int:pk>/', BlogPostDetailView.as_view(), name='blog-post-detail'),
     path('api/comments/', CommentListCreateView.as_view(), name='comment-list'),
     path('api/comments/<int:pk>/', CommentDetailView.as_view(), name='comment-detail'),
-    path('blog/', CustomBlogView.as_view(), name='custom-blog-view'),
+    path('', CustomBlogView.as_view(), name='custom-blog-view'),
     path('blog/<int:pk>/', CustomBlogDetailView.as_view(), name='custom-blog-detail'),
 ]
