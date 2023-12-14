@@ -1,17 +1,21 @@
 header {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-    background: #000;
+    background: #fff;
     position: fixed;
     width: 80%;
     top: 0;
-   }
+}
    
-   header, nav ul {
+header, nav ul {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
-   }
-   
-   nav ul li {
+}
+
+p {
+    color:gray;
+}
+
+nav ul li {
     margin-left: 1rem;
-   }
+}
