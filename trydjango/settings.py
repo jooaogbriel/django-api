@@ -71,6 +71,10 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'trydjango.wsgi.application'
 
+STATIC_ROOT = BASE_DIR / 'staticfiles'
+import pathlib
+
+BASE_DIR = pathlib.Path(__file__).resolve().parent.parent
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases

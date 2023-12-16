@@ -5,16 +5,17 @@ header {
     width: 80%;
     top: 0;
 }
-   
+
 header, nav ul {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
 }
-
-p {
-    color:gray;
-    background-color:blue;
+h1{
+    color:blue;
+}
+p{
+    background-color: red;
 }
 
 nav ul li {
