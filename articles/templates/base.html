@@ -1,12 +1,12 @@
-{% load static %}
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="{% STATIC_ROOT 'css/styles.css' %}">
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
     <title>João Gonçalves - FullStack</title>
+    
 </head>
 <body>
     <header>
